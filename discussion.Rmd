@@ -1,8 +1,8 @@
 ---
 title: "Forecaster Performance Characteristics"
-subtitle: "Discussion"
+subtitle: "A Discussion"
 author: "Itamar Caspi"
-date: "July 9, 2019 (updated: `r Sys.Date()`)"
+date: "Bank of Israel, July 9, 2019"
 output:
   xaringan::moon_reader:
     css: [default, "style/middlebury.css", "style/middlebury-fonts.css"]
@@ -92,7 +92,7 @@ name: lit
 
 ---
 
-# From Psychology
+# From psychology
 
 .pull-left[
 ```{r, echo=FALSE, out.width = "65%", fig.align='center'}
@@ -163,7 +163,7 @@ name: causality
 
 ---
 
-# Curse of dimensionality
+# The curse of dimensionality
 
 Presumably, the list of covariates is not sizable:
 - experience
@@ -194,7 +194,7 @@ In this case, estimating the effect of having a PhD on forecasting performance i
 
 ]
 .pull-right[
-```{r, echo=FALSE, out.width = "100%", fig.align='center'}
+```{r, echo=FALSE, out.width = "120%", fig.align='center'}
 
 knitr::include_graphics("figs/dag_phd_0.png")
 
@@ -217,7 +217,7 @@ In this example, the bias is probably _negative._ It seems reasonable to think t
 
 ]
 .pull-right[
-```{r, echo=FALSE, out.width = "100%", fig.align='center'}
+```{r, echo=FALSE, out.width = "120%", fig.align='center'}
 
 knitr::include_graphics("figs/dag_phd_1.png")
 
@@ -237,7 +237,7 @@ __OPTION 2:__ Look for other exogenous variation in the data and see how its eff
 
 - e.g., Coibion and Gorodnichenko (JPE 2012).
 
-__OPTION 3:__ Stay in the realm of descriptive analysis, but change the subject, e.g., 
+__OPTION 3:__ Stay in the realm of descriptive studies, but refine the research question, e.g., 
 
 - Is there evidence of superforecasters? If so, what are their characteristics?
 
@@ -261,19 +261,23 @@ knitr::include_graphics("figs/football_title.png")
 
 ---
 
-.pull-left[
-```{r, echo=FALSE, out.width = "60%", fig.align='center'}
+# Is he that "special"?
 
-knitr::include_graphics("figs/football_dist.jpg")
+.pull-left[
+```{r, echo=FALSE, out.width = "80%", fig.align='center'}
+
+knitr::include_graphics("figs/football_flow1.jpg")
 
 ```
 
+
 _Source_: [The Economist.](https://www.economist.com/graphic-detail/2019/01/19/managers-in-football-matter-much-less-than-most-fans-think)
 ]
-.pull-right[
-```{r, echo=FALSE, out.width = "70%", fig.align='center'}
 
-knitr::include_graphics("figs/football_flow.jpg")
+.pull-right[
+```{r, echo=FALSE, out.width = "90%", fig.align='center'}
+
+knitr::include_graphics("figs/football_flow2.jpg")
 
 ```
 ]
