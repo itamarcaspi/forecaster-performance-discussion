@@ -170,8 +170,7 @@ $$y_{it}=x_{it}^{\prime} \beta+\alpha_{i}+\theta_{t}+\varepsilon_{it}$$
 
 where $y_{it}$ is a measure of forecasting performance (accuracy, courage, and instability), and $x_i$ is a vector of forecaster characteristics.
 
-> __RESEARCH QUESTION:__ Which forecasters characteristics __affect__ forecasting performance (and survival rate)? 
-
+> __RESEARCH QUESTION:__ Which forecasters characteristics __affect__ forecasting performance? 
 
 
 ---
