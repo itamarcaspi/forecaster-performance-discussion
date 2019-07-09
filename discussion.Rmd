@@ -1,6 +1,6 @@
 ---
 title: "Forecaster Performance Characteristics"
-subtitle: "A Discussion"
+subtitle: "Discussion"
 author: "Itamar Caspi"
 date: "Bank of Israel, July 9, 2019"
 output:
@@ -27,38 +27,50 @@ knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE,
 
 ```
 
-# What this research is about
+# What this paper does
 
 
-- The authors assemble an impressive and unique dataset:
+- Constructs an impressive an original dataset:
 
-  - Inflation and interest rate forecasts made by __480__ experts from __440__ institutions, bofore and after the global finance crisis.
+  - Inflation and interest rate forecasts made by __480__ experts from __440__ institutions, before and after the global finance crisis.
   
-  - A rich set of forecasters charateristics: experience (type and time), gender, education (level, type, and quality), and affiliation (type and place).
+  - A rich set of forecasters characteristics: experience (type and time), gender, education (level, type, and quality), and affiliation (type and place).
   
-- Characterize the factors associated with forecaster survival rate, as well as three measures of performance (accuracy, courage, and instability)
+- Composes a measure of survival rate as well as three measures of forecasting performance - accuracy, courage, and instability.
+
+- Characterizes the factors associated with forecaster survival rate and performance.
+
+
+---
+
+# What the paper finds
+
+The following characteristics __improve__ forecasting performance, courage, and instability:
+
+1. Level and quality of the education.
+
+2. Localization and type of their affiliation.
+
+3. Experience, as a forecaster in a central bank or academia.
 
 
 ---
 
 # Econometric approach
 
-The authors use a two-way fixed effect panel data model to estimate the effects of various forecaster charateristics on forecasting performance:
+In their main analysis, the authors use a two-way fixed effect panel data model to estimate the effects of various forecaster characteristics on forecasting performance:
 
 $$y_{it}=x_{it}^{\prime} \beta+\alpha_{i}+\theta_{t}+\varepsilon_{it}$$
-where $y_{it}$ is a measuere of forecasting performence (accuracy, courage, and instability), and $x_i$ is a vector of forecaster charateristics.
+where $y_{it}$ is a measure of forecasting performance (accuracy, courage, and instability), and $x_i$ is a vector of forecaster characteristics.
 
-__RESEARCH QUESTION:__ Which factors __affect__ forecasting performance (and survival rate)? 
+> __RESEARCH QUESTION:__ Which forecasters characteristics __affect__ forecasting performance (and survival rate)? 
 
-__FINDINGS:__
-
->  _"We show that the level and quality of the education, the localization and type of their affiliation, and their experience, as a forecaster or in a central bank or academia, are critical characteristics for __improving__ these behaviors."_
 
 
 
 ---
 
-# Main Comments
+# My Comments
 
 1. [Literature](#lit)
 
@@ -72,7 +84,7 @@ __FINDINGS:__
 class: title-slide-section-blue, center, middle
 name: lit
 
-# Literature
+# Comment #1: Literature
 
 
 ---
@@ -117,7 +129,7 @@ According to Tetlock & Gardner, superforecasters typically have:
 class: title-slide-section-blue, center, middle
 name: sig
 
-# Economic Significance
+# Comment #2: Economic Significance
 
 
 ---
@@ -158,7 +170,7 @@ Note that
 class: title-slide-section-blue, center, middle
 name: causality
 
-# Causality and policy implications
+# Comment #3: Causality and policy implications
 
 
 ---
@@ -258,10 +270,9 @@ knitr::include_graphics("figs/football_title.png")
 ```
 
 
-
 ---
 
-# Is he that "special"?
+# How special is "the special one"?
 
 .pull-left[
 ```{r, echo=FALSE, out.width = "80%", fig.align='center'}
@@ -289,7 +300,7 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 - Descriptive statistics: Average years of experience? How many have PhD? How many economists? How many women? Etc.
 
-- Model: Why is it essential (it is)?
+- Survival analysis: Is it relevant?
 
 - Non-linearity in __`experience`__?
 
@@ -297,10 +308,16 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 - Missing data and imputations.
 
-- Consider changing the title.
 
+---
 
+# Summary of comments and suggestions
 
+- Great database!
+
+- Interesting findings
+
+- Refine causal analysis
 
 ---
 class: .title-slide-final, center, inverse, middle
