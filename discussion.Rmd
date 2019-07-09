@@ -302,6 +302,8 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 - Survival analysis: Is it relevant?
 
+- Model: Does it help the reader?
+
 - Non-linearity in __`experience`__?
 
 - Add figures!
