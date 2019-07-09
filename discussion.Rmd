@@ -54,19 +54,6 @@ The following characteristics __improve__ forecasting performance, courage, and 
 3. Experience, as a forecaster in a central bank or academia.
 
 
----
-
-# Econometric approach
-
-In their main analysis, the authors use a two-way fixed effect panel data model to estimate the effects of various forecaster characteristics on forecasting performance:
-
-$$y_{it}=x_{it}^{\prime} \beta+\alpha_{i}+\theta_{t}+\varepsilon_{it}$$
-where $y_{it}$ is a measure of forecasting performance (accuracy, courage, and instability), and $x_i$ is a vector of forecaster characteristics.
-
-> __RESEARCH QUESTION:__ Which forecasters characteristics __affect__ forecasting performance (and survival rate)? 
-
-
-
 
 ---
 
@@ -170,7 +157,21 @@ Note that
 class: title-slide-section-blue, center, middle
 name: causality
 
-# Comment #3: Causality and policy implications
+# Comment #3: Causality and Policy Implications
+
+
+---
+
+# Econometric approach
+
+In their main analysis, the authors use a two-way fixed effect panel data model to estimate the effects of various forecaster characteristics on forecasting performance:
+
+$$y_{it}=x_{it}^{\prime} \beta+\alpha_{i}+\theta_{t}+\varepsilon_{it}$$
+
+where $y_{it}$ is a measure of forecasting performance (accuracy, courage, and instability), and $x_i$ is a vector of forecaster characteristics.
+
+> __RESEARCH QUESTION:__ Which forecasters characteristics __affect__ forecasting performance (and survival rate)? 
+
 
 
 ---
@@ -324,7 +325,7 @@ class: .title-slide-final, center, inverse, middle
 
 # `slides %>% end()`
 
-[<i class="fa fa-github"></i> Source code](https://github.com/ml4econ/notes-spring2019/tree/master/01-overview)  
+[<i class="fa fa-github"></i> Source code](https://github.com/itamarcaspi/forecaster-performance-discussion)  
 
 ---
 
