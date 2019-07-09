@@ -63,7 +63,7 @@ The following characteristics __improve__ forecasting _performance, courage_, an
 
 2. [Economic Significance?](#sig)
 
-3. [Causallity and Policy Implications](#causality)
+3. [Causality and Policy Implications](#causality)
 
 
 
