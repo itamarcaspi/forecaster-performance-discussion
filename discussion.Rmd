@@ -1,5 +1,5 @@
 ---
-title: "Forecaster Performance Characteristics"
+title: "Forecasts and Forecaster Characteristics"
 subtitle: "Discussion"
 author: "Itamar Caspi"
 date: "Bank of Israel, July 9, 2019"
@@ -311,7 +311,7 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 ---
 
-# Summary of comments and suggestions
+# Summary
 
 The paper
 
