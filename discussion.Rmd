@@ -315,9 +315,12 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 - Great database!
 
+- An essential contribution to the literature
+
 - Interesting findings
 
-- Refine causal analysis
+- Refine causal analysis OR descriptive analysis
+
 
 ---
 class: .title-slide-final, center, inverse, middle
