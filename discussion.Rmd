@@ -45,7 +45,7 @@ knitr::opts_chunk$set(eval = TRUE, echo = TRUE, warning = FALSE,
 
 # What the paper finds
 
-The following characteristics __improve__ forecasting performance, courage, and instability:
+The following characteristics __improve__ forecasting _performance, courage_, and _instability_:
 
 1. Level and quality of the education.
 
