@@ -313,11 +313,17 @@ knitr::include_graphics("figs/football_flow2.jpg")
 
 # Summary of comments and suggestions
 
-- Great database!
+The paper
+
+- Impressive data collection!
 
 - An essential contribution to the literature
 
 - Interesting findings
+
+Comments:
+
+- Broaden the scope of the literature
 
 - Refine causal analysis OR descriptive analysis
 
